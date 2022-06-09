@@ -1,6 +1,6 @@
-import Menina from "/public/images/menina.svg";
-import Codigo from "/public/images/codigo.svg";
-import Will from "/public/images/will-smith.svg";
+import SmartTV from "/public/images/smart-tv.jpg";
+import SmartWatch from "/public/images/smart-watch.jpg";
+import Alexa from "/public/images/alexa.jpg";
 
 type PropsInvite = {
   imagem: any;
@@ -12,23 +12,23 @@ type PropsInvite = {
 export const Invite: PropsInvite[] = [
   {
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt eos impedit ut assumenda doloremque quam mollitia tempora, ducimus ea, corporis perferendis dolorem ad minima.",
-    imagem: Menina,
-    title: "qualquer coisa",
-    url: "essa aqui mesmo",
+      "O termo Smart TV, significa televisão inteligente. Estas surgiram para trazer um conceito que une a televisão com a internet.",
+    imagem: SmartTV,
+    title: "SmartTV",
+    url: "",
   },
   {
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt eos impedit ut assumenda doloremque quam mollitia tempora, ducimus ea, corporis perferendis dolorem ad minima.",
-    imagem: Codigo,
-    title: "qualquer coisa",
-    url: "essa aqui mesmo",
+      "Um smartwatch é um ''relógio moderno'' que possui telas sensíveis ao toque, entregam aplicativos e normalmente registram sinais vitais.",
+    imagem: SmartWatch,
+    title: "SmartWatch",
+    url: "",
   },
   {
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt eos impedit ut assumenda doloremque quam mollitia tempora, ducimus ea, corporis perferendis dolorem ad minima.",
-    imagem: Will,
-    title: "qualquer coisa",
-    url: "essa aqui mesmo",
+      "Alexa é a assistente virtual da Amazon, que possui alto-falantes inteligentes. Esta assistente é capaz de entender o que lhe é pedido e executar tarefas simples.",
+    imagem: Alexa,
+    title: "Alexa",
+    url: "",
   },
 ];

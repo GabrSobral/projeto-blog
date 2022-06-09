@@ -8,7 +8,7 @@ export const PostsUserOn: PropsPostsProfile[] = [
     url: "",
   },
   {
-    title: "Como trancar SI na FATEC em 5 passos.",
+    title: "TailwindCSS",
     description:
       "i sit amet lacus nec nulla lo bortis euismod quis sit amet nisi. Vivamus non leo ut orci malesuad...",
     url: "",
