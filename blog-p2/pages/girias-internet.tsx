@@ -205,7 +205,60 @@ const Home: NextPage = () => {
                     a integração entre as sociedades não cessam.
                   </span>
                 </div>
+                <div className="flex flex-col w-full py-6 gap-1 text-[10px]">
+                    <Link
+                      href={
+                        "https://www.dicionariopopular.com/girias-atuais-internet/"
+                      }
+                    >
+                      <div className="flex gap-1 cursor-pointer">
+                        <span className="font-semibold"> Fonte: </span>{" "}
+                        <span className="underline underline-offset-2">
+                          Gírias atuais mais usadas na internet - Você já usou
+                          alguma?
+                        </span>
+                      </div>
+                    </Link>
+                    <Link
+                      href={
+                        "https://blogabre.com.br/2022/02/23/girias-atuais-mais-usadas-na-internet/"
+                      }
+                    >
+                      <div className="flex gap-1 cursor-pointer">
+                        <span className="font-semibold"> Fonte: </span>
+                        <span className="underline underline-offset-2">
+                          17 gírias que surgiram na Internet nesta década
+                        </span>
+                      </div>
+                    </Link>
+                    <Link
+                      href={
+                        "https://www.pravaler.com.br/memes-hashtags-siglas-e-girias-da-internet-conheca-as-60-mais-populares/#:~:text=São%20expressões%20populares%20que%20nos,ou%20a%20cultura%20que%20acompanha."
+                      }
+                    >
+                      <div className="flex gap-1 cursor-pointer">
+                        <span className="font-semibold"> Fonte: </span>
+                        <span className="underline underline-offset-2">
+                          Memes, hashtags, siglas e gírias da internet – conheça
+                          as 60 mais populares
+                        </span>
+                      </div>
+                    </Link>
+                    <Link
+                      href={
+                        "https://www.dicionariopopular.com/melhores-girias-internet/"
+                      }
+                    >
+                      <div className="flex gap-1 cursor-pointer">
+                        <span className="font-semibold"> Fonte: </span>
+                        <span className="underline underline-offset-2">
+                          As 22 melhores gírias da internet de todos os tempos
+                        </span>
+                      </div>
+                    </Link>
+                </div>
               </div>
+              
               <div className="col-span-4 ">
                 <div className="mb-4">
                   <CardProfileJeredy />
@@ -230,6 +283,7 @@ const Home: NextPage = () => {
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>

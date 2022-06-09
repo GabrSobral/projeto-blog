@@ -220,10 +220,14 @@ const Home: NextPage = () => {
                   </div>
                 </div>
               </div>
+
+              
             </div>
           </div>
         </div>
+        
       </div>
+
       <div className="bg-black h-10 w-full" />
       <div className="bg-zinc-800 h-10 w-full" />
       <footer className="bg-zinc-500 flex items-center justify-center p-2 text-white text-sm">
